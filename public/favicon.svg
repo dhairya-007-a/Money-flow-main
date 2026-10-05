@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c584c"/>
+      <stop offset="50%" stop-color="#a98467"/>
+      <stop offset="100%" stop-color="#adc178"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(240, 234, 210, 0.4)"/>
+      <stop offset="100%" stop-color="rgba(240, 234, 210, 0.05)"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="112" height="112" rx="32" fill="url(#bgGrad)" stroke="rgba(240,234,210,0.4)" stroke-width="2" />
+  <rect x="26" y="32" width="76" height="64" rx="20" fill="url(#glassGrad)" stroke="rgba(240,234,210,0.5)" stroke-width="1.5" />
+  <text x="64" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="34" fill="#f0ead2">₹</text>
+  <circle cx="92" cy="44" r="5" fill="#dde5b6" />
+</svg>
